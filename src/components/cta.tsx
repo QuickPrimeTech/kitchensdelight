@@ -9,15 +9,15 @@ export default function CTA({ className }: { className?: string }) {
     <section
       className={cn(
         "section bg-gradient-to-br from-primary to-primary/80 rounded-lg text-primary-foreground",
-        className
+        className,
       )}
       aria-label="Ready to dine or order online"
     >
       <div className="max-w-4xl mx-auto text-center px-4">
-        <H2 className="mb-6">Ready for an Ocean Adventure?</H2>
+        <H2 className="mb-6">Ready for a Delicious Meal?</H2>
         <Paragraph className="text-lg mb-8">
-          Reserve your table today or order your favorite coastal dishes to
-          enjoy wherever you are.
+          Reserve your table today or order your favorite hearty dishes from
+          Kitchen’s Delight Cafe to enjoy wherever you are.
         </Paragraph>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

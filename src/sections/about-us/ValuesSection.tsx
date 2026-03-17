@@ -6,27 +6,27 @@ export default function ValuesSection() {
   const values = [
     {
       icon: <Leaf className="w-8 h-8" aria-hidden="true" />,
-      title: "Sustainability",
+      title: "Fresh & Local",
       description:
-        "We source responsibly from local fishermen and organic farms, protecting our oceans for future generations.",
+        "We prepare our meals using fresh, locally sourced ingredients to ensure every plate is full of authentic taste and quality.",
     },
     {
       icon: <Heart className="w-8 h-8" aria-hidden="true" />,
-      title: "Family Tradition",
+      title: "Generous Portions",
       description:
-        "Three generations of culinary expertise, passed down through time-honored recipes and techniques.",
+        "We believe no one should leave hungry. Our meals are known for their large, satisfying portions that give you true value for your money.",
     },
     {
       icon: <Award className="w-8 h-8" aria-hidden="true" />,
-      title: "Excellence",
+      title: "Consistency",
       description:
-        "We never compromise on quality, from ingredient selection to the final presentation of each dish.",
+        "Every dish is prepared with care and consistency, so you can always expect the same great taste and quality every time you visit.",
     },
     {
       icon: <Users className="w-8 h-8" aria-hidden="true" />,
       title: "Community",
       description:
-        "We're proud to be part of the Seaside Bay community, supporting local businesses and charities.",
+        "We are proud to serve the Nyeri community, bringing people together over good food and sharing our journey through our growing TikTok presence.",
     },
   ];
 

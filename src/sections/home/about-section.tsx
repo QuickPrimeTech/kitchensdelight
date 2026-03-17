@@ -10,22 +10,25 @@ export default function AboutSection() {
     <section
       className="section bg-background py-16"
       aria-labelledby="about-ziwa-heading"
-      aria-label="About Ziwa La Ladha section"
+      aria-label="About Kitchen's Delight Cafe section"
     >
       <div className="grid md:grid-cols-2 gap-12 items-center container">
         <div>
           <H2 id="about-ziwa-heading" className="mb-6">
-            Welcome to Ziwa Seaside Restaurant
+            Welcome to Kitchen's Delight Cafe
           </H2>
           <Paragraph className="text-muted-foreground text-lg leading-relaxed mb-6">
-            Nestled at the heart of Old Town, Mombasa&apos;s bustling food
-            scene, Ziwa Restaurant brings you the rich coastal flavors of Kenya
-            — from coconut-laced curries to freshly grilled seafood infused with
-            Swahili spices. Our chefs blend tradition and creativity to serve
-            soulful meals that honor both land and sea.
+            Located in the heart of Nyeri, Kitchen's Delight Cafe is your go-to
+            spot for hearty, generously portioned meals. From flavorful Kenyan
+            classics to creative daily specials, our chefs combine fresh,
+            quality ingredients with passion to deliver meals that satisfy both
+            appetite and soul.
           </Paragraph>
           <Button asChild size="lg">
-            <Link href="/about" aria-label="Learn more about Ziwa La Ladha">
+            <Link
+              href="/about"
+              aria-label="Learn more about Kitchen's Delight Cafe"
+            >
               Learn More
             </Link>
           </Button>
@@ -34,8 +37,8 @@ export default function AboutSection() {
         <div className="relative w-full aspect-3/2">
           <Image
             fill
-            src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1753001420/imgi_92_Restaurant-18-scaled_aes5ba.jpg"
-            alt="Chef preparing coastal Kenyan seafood at Ziwa La Ladha"
+            src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_26_ocUiIrQQjo98Ur7wtAFFegvaQA6TReMs3pfDWC_tplv-tiktokx-origin_xi9sao.jpg"
+            alt="Chef preparing dishes at Kitchen's Delight Cafe"
             className="rounded-lg shadow-2xl object-cover"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority

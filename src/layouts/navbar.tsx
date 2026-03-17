@@ -116,7 +116,7 @@ const MobileNavLink = ({
           "flex items-center px-3 py-2.5 rounded-lg text-sm font-medium transition-colors",
           pathname === link.href
             ? "bg-primary/10 text-primary"
-            : "text-foreground hover:bg-accent"
+            : "text-foreground hover:bg-accent",
         )}
       >
         {link.label}
@@ -144,8 +144,8 @@ const DesktopNavLink = ({
         pathname === link.href
           ? "bg-primary/10 text-primary"
           : isHome && !isScrolled
-          ? "text-white hover:text-white hover:bg-white/10"
-          : "text-muted-foreground hover:text-foreground hover:bg-accent"
+            ? "text-white hover:text-white hover:bg-white/10"
+            : "text-muted-foreground hover:text-foreground hover:bg-accent",
       )}
     >
       {link.label}
@@ -209,7 +209,7 @@ export function Navbar() {
     "fixed top-0 w-full z-50 transition-all duration-300 bg-background/80 text-foreground border-b border-border shadow-sm backdrop-blur-md",
     isHome &&
       !isScrolled &&
-      "bg-transparent text-background shadow-none backdrop-blur-none"
+      "bg-transparent text-background shadow-none backdrop-blur-none",
   );
 
   const getTextColor = (defaultColor = "text-foreground") =>
@@ -223,8 +223,8 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-3">
             <div className="relative size-9 rounded-full overflow-hidden ring-2 ring-primary/20 hover:ring-primary/40 transition-all duration-300">
               <Image
-                src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1750685108/Flux_Dev_A_minimalistic_logo_for_a_coastal_restaurant_featurin_0_yyrx6o.jpg"
-                alt="Ziwa Restaurant Logo"
+                src="/logo.png"
+                alt="kitchens delight logo"
                 width={36}
                 height={36}
                 className="object-cover w-full h-full"
@@ -232,7 +232,7 @@ export function Navbar() {
               />
             </div>
             <span className="font-serif text-xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-              Ziwa Restaurant
+              Kitchen&#39;s Delight Cafe
             </span>
           </Link>
 
@@ -260,7 +260,7 @@ export function Navbar() {
                     size="sm"
                     className={cn(
                       "text-sm font-medium",
-                      getTextColor("text-muted-foreground")
+                      getTextColor("text-muted-foreground"),
                     )}
                   >
                     More

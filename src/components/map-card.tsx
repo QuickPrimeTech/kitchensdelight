@@ -13,8 +13,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -4.059340651789621,
-  lng: 39.679854551524244,
+  lat: -0.4201,
+  lng: 36.9476,
 };
 
 export function MapCard() {

@@ -6,8 +6,8 @@ export default function AboutHeader() {
       {/* Background image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1753126670/imgi_198_PMM_4187_pl5v8b.jpg"
-          alt="Restaurant exterior"
+          src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762830/imgi_36_oYEuUFDjREBolQ4t0YEQqKBAhDVgezvLjpfgiU_tplv-tiktokx-origin_tfek6o.jpg"
+          alt="Kitchens Delight meals"
           fill
           style={{ objectFit: "cover" }}
           priority
@@ -18,28 +18,29 @@ export default function AboutHeader() {
 
       <div className="container mx-auto px-4 text-center text-background">
         <div className="inline-block px-4 py-2 rounded-full text-sm font-medium mb-4">
-          About Us
+          About Kitchens Delight Cafe
         </div>
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Our Coastal Legacy
+          Big Portions. Real Satisfaction.
         </h1>
         <p className="text-xl leading-relaxed mb-8 max-w-2xl mx-auto">
-          For over three decades, Coastal Breeze has been more than just a
-          restaurant—we&apos;re a family tradition, a community gathering place,
-          and a celebration of coastal cuisine at its finest.
+          Kitchens Delight is quickly becoming Nyeri&apos;s go-to spot for
+          generous portions, great taste, and unbeatable value. We&apos;re all
+          about serving satisfying meals that bring people together and leave
+          you fully content every single time.
         </p>
         <div className="grid grid-cols-3 gap-6 max-w-md mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold">37+</div>
-            <div>Years</div>
+            <div className="text-3xl font-bold">New</div>
+            <div>In Nyeri</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold">50K+</div>
-            <div>Happy Guests</div>
+            <div className="text-3xl font-bold">100%</div>
+            <div>Full Plates</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold">15</div>
-            <div>Awards</div>
+            <div className="text-3xl font-bold">🔥</div>
+            <div>Viral Spot</div>
           </div>
         </div>
       </div>

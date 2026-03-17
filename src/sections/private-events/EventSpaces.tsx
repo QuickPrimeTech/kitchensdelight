@@ -4,49 +4,48 @@ import Image from "next/image";
 export default function EventSpaces() {
   const spaces = [
     {
-      name: "Oceanview Private Dining Room",
-      capacity: "Up to 40 guests",
+      name: "Cozy Private Dining Room",
+      capacity: "Up to 20 guests",
       description:
-        "Floor-to-ceiling windows with panoramic ocean views, perfect for intimate celebrations and business dinners.",
+        "A warm and intimate space perfect for family gatherings, birthday celebrations, or small business dinners.",
       features: [
-        "Ocean views",
-        "Private bar",
+        "Comfortable seating",
+        "Private service",
         "AV equipment",
-        "Climate controlled",
+        "Air-conditioned",
       ],
       image:
-        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1753001420/imgi_92_Restaurant-18-scaled_aes5ba.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762953/imgi_22_482910852_17874706050290372_6254805543613275719_n_qk2s3k.webp",
     },
     {
-      name: "Beachside Terrace",
-      capacity: "Up to 80 guests",
+      name: "Garden Terrace",
+      capacity: "Up to 50 guests",
       description:
-        "Open-air terrace with direct beach access, ideal for cocktail receptions and outdoor ceremonies.",
+        "Open-air terrace surrounded by greenery, ideal for casual parties, cocktail receptions, and outdoor celebrations.",
       features: [
-        "Beach access",
-        "Sunset views",
-        "Outdoor bar",
+        "Garden views",
+        "Outdoor seating",
+        "Flexible setup",
         "Weather protection",
       ],
       image:
-        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1753126670/imgi_198_PMM_4187_pl5v8b.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762952/imgi_23_482861797_17874574620290372_1707356993823858096_n_wxz9xc.webp",
     },
     {
-      name: "Full Restaurant Buyout",
-      capacity: "Up to 120 guests",
+      name: "Full Cafe Buyout",
+      capacity: "Up to 100 guests",
       description:
-        "Complete restaurant exclusivity for your special event, including all dining areas and outdoor spaces.",
+        "Exclusive use of Kitchen&#39;s Delight Cafe for your special event, including all indoor and outdoor spaces.",
       features: [
-        "Exclusive use",
-        "Full kitchen access",
-        "Multiple spaces",
-        "Valet parking",
+        "Exclusive access",
+        "Full kitchen services",
+        "Multiple seating areas",
+        "Convenient parking",
       ],
       image:
-        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1753126994/imgi_179_onda-restaurant_siqodo.jpg",
+        "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762947/imgi_29_482729554_17874159654290372_5565691367087164429_n_i4jsvo.webp",
     },
   ];
-
   return (
     <section className="section bg-gray-100">
       <div className="container mx-auto">

@@ -9,8 +9,8 @@ export default function EventsHeader() {
     <section className="relative min-h-120 mt-16 section">
       {/* Background image */}
       <Image
-        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1753134060/imgi_119_beach-fbl-mid2_cop2gx.jpg"
-        alt="Private event setup"
+        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762830/imgi_40_oIVZ7fEQQBgpnahf9bFUOvcTsBXgTEAgDBzRIm_tplv-tiktokx-origin_sfwp3w.jpg"
+        alt="Private event setup at Kitchen&#39;s Delight Cafe"
         fill
         className="object-cover object-center absolute inset-0"
       />
@@ -20,12 +20,12 @@ export default function EventsHeader() {
       {/* Centered content */}
       <div className="relative z-10 container mx-auto flex flex-col items-center justify-center text-background text-center">
         <h1 className="font-serif text-5xl md:text-6xl font-bold  mb-6">
-          Celebrate Life&apos;s Special Moments
+          Celebrate Life&#39;s Special Moments
         </h1>
         <p className="text-xl  leading-relaxed mb-8 max-w-2xl">
-          From intimate anniversary dinners to grand wedding receptions, our
-          private dining spaces and dedicated events team create unforgettable
-          experiences tailored to your vision.
+          From cozy birthday dinners to grand celebrations, Kitchen&#39;s
+          Delight Cafe in Nyeri offers private dining spaces and a dedicated
+          events team to create unforgettable experiences tailored just for you.
         </p>
         <Button size="lg" asChild>
           <Link href="#event-contact">Plan Your Event</Link>

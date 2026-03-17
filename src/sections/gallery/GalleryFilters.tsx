@@ -47,7 +47,7 @@ const images = [
   {
     id: 6,
     category: "interior",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750620816/the-wedding-photographer-seychelles-laurent-levy-mahe-studio-digifot-A-720x720_qbiitb.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_52_owQwQJBFRuQmAdDpaFkafLaEY0rEwE0gUwFxBe_tplv-tiktokx-origin_oyc4js.jpg",
     title: "Private Dining Room",
   },
   {

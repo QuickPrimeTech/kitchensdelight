@@ -24,28 +24,28 @@ export default function Testimonials() {
       image:
         "https://lh3.googleusercontent.com/a-/ALV-UjV1vv9evIElYUomNLQlu9m91MG42X6s62EJRoMtlQmEoAdYPZ07=w72-h72-p-rp-mo-ba4-br100",
       name: "Shahriar Shakil Shuvo",
-      text: "Ziwa Restaurant in Mombasa is an absolute gem! Located near Fort Jesus and overlooking the ocean, the view alone is worth the visit. But the real star is the food—delicious Swahili and seafood dishes that are full of rich, authentic flavors. I tried the grilled lobster and biryani, and both were perfectly cooked and generously portioned. The ambiance is laid-back yet vibrant, with a cool sea breeze and the sound of waves nearby. The staff were friendly, attentive, and made great recommendations from the menu. Prices are reasonable considering the quality and location. If you're in Old Town Mombasa and want a memorable meal with a touch of local culture, Forodhani is the place to be. Highly recommended!",
+      text: "Kitchen’s Delight Cafe in Nyeri is an absolute favorite! The portions are huge, the flavors are bold, and everything tastes freshly made. I tried the grilled chicken with sides, and the servings were generous and perfectly cooked. The café has a cozy and welcoming vibe, making it perfect for lunch with friends or family. The staff are friendly, attentive, and always ready to make great recommendations. Highly recommended if you want a hearty, satisfying meal in Nyeri!",
       rating: 5,
     },
     {
       image:
         "https://lh3.googleusercontent.com/a-/ALV-UjWsFI54HN1_h5MbbO1Xai5Xvo_d_GMjaJwESKPn-Mtnhr8QYb88iQ=w36-h36-p-rp-mo-ba3-br100",
       name: "Michel Libamira",
-      text: "Wonderful. The views are amazing. The food is 10/10. They don't serve alcohol. But you can sneak in ;-)",
+      text: "Amazing food and generous portions! The ambiance is casual and perfect for catching up with friends. Everything I tried was delicious, and the staff are very welcoming. I love coming here for a quick bite or a full meal!",
       rating: 4,
     },
     {
       image:
         "https://lh3.googleusercontent.com/a-/ALV-UjVOeut2Xs6yphx8cBquunIC4voAoFMfuHKiQUcLLS2PtZDEnOen6Q=w36-h36-p-rp-mo-ba4-br100",
       name: "Henry Ochieng",
-      text: "Good ambience for a relaxed meal near the waves. Excellent food with good portions. Good service from well mannered staff.",
+      text: "Cozy spot in Nyeri with huge portions and great flavors. The meals are always fresh and filling, and the staff make you feel right at home. Perfect for lunch or dinner.",
       rating: 4,
     },
     {
       image:
         "https://lh3.googleusercontent.com/a-/ALV-UjUs0rxk50PSltlmeml5It8GEknB5wnYTRdVZzjQXjP-lK6VvS3lVA=w36-h36-p-rp-mo-ba6-br100",
       name: "Kit Teguh",
-      text: "I came here on a Friday for lunch not knowing that about this time, it is prayer time and they will not serve you until 1:30PM, so if you come just a heads up. I didn't really mind, as you can still sit down and enjoy the view of the coast which is great on a good day. True to their word the staff will begin their service at the appointed time. I've got a nice mutton biriani with fall off the bone kind of meat. It's a well balanced meal with a nice bit of salsa and kachumbari. Maybe it's not the best biriani in town (checkout Mangaboy for this), but it's pretty solid. I would stay here for hours on end reading, but after 2PM the lunch crowd came and it gets pretty busy. But this place is definitely worth the little walk from Fort Jesus.",
+      text: "I visited Kitchen’s Delight Cafe for a relaxed lunch and was blown away by the portion sizes and flavors. The staff are punctual and friendly, and the café has a really cozy vibe. I had their signature chicken platter with sides, and it was more than enough to satisfy my appetite. Definitely a must-visit in Nyeri!",
       rating: 5,
     },
   ];

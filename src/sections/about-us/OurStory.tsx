@@ -12,7 +12,8 @@ export default function OurStory() {
             Our Story
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            From a neighborhood dream to a beloved local gem
+            From a small local spot to Nyeri’s go-to for generous, satisfying
+            meals
           </p>
         </div>
 
@@ -22,26 +23,25 @@ export default function OurStory() {
               The Beginning
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Ziwa Restaurant was born in 2014 out of a simple idea: to create a
-              place where friends and family could gather over good food, great
-              music, and warm conversation. Located along Ngong Road in Nairobi,
-              Ziwa began as a cozy roadside joint with just a handful of plastic
-              tables, a borrowed jiko, and a small chalkboard menu.
+              Kitchen’s Delight Cafe was founded with a simple mission: to serve
+              delicious, filling meals that bring people together. Located in
+              Nyeri, the cafe started as a humble eatery focused on one thing—
+              making sure every customer leaves full and satisfied.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Our founder, Wambui Mwangi, grew up in the coastal town of Kilifi,
-              where food wasn&apos;t just nourishment—it was celebration.
-              Inspired by her grandmother&apos;s traditional Swahili recipes and
-              her own travels across Kenya, she set out to blend coastal flavors
-              with Nairobi&apos;s vibrant urban culture. Word spread fast. Soon,
-              Ziwa wasn&apos;t just a spot for a quick meal—it became a place
-              people came to feel at home.
+              What set Kitchen’s Delight apart from the start was its generous
+              portions and consistent quality. Word quickly spread across Nyeri,
+              and soon the cafe became a favorite for students, families, and
+              anyone looking for great value and hearty meals. Today, its
+              growing presence on TikTok has made it even more popular, with
+              food lovers sharing their experiences and showcasing the famously
+              large servings.
             </p>
           </div>
           <div>
             <Image
-              src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1753127116/imgi_107_seafront-cafe_s6j0gv.jpg"
-              alt="Ziwa’s original location – a humble roadside café with a coastal feel"
+              src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762944/imgi_21_483314818_17875098924290372_2271472929425626432_n_qhj3to.webp"
+              alt="Kitchen’s Delight Cafe beginnings – a simple and welcoming local eatery in Nyeri"
               width={500}
               height={400}
               className="rounded-xl shadow-lg"
@@ -52,8 +52,8 @@ export default function OurStory() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <Image
-              src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1753126994/imgi_179_onda-restaurant_siqodo.jpg"
-              alt="Ziwa today – modern restaurant interior with coastal inspiration"
+              src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762831/imgi_28_oYiuI1KIjopeHF70YAOTtgjZgAMTQhGeTrfDLC_tplv-tiktokx-origin_tvomy2.jpg"
+              alt="Kitchen’s Delight Cafe today – a vibrant and busy spot known for its large portions"
               width={500}
               height={400}
               className="rounded-xl shadow-lg"
@@ -64,18 +64,19 @@ export default function OurStory() {
               Today
             </h3>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Today, Ziwa has evolved into a full-service restaurant known for
-              its signature Swahili biryani, grilled seafood, and creative takes
-              on Kenyan classics. While the space has grown and the kitchen has
-              modernized, our spirit remains unchanged—we&apos;re still your
-              neighborhood spot with coastal soul.
+              Today, Kitchen&apos;s Delight Cafe is known across Nyeri for its
+              generous portions, affordable meals, and consistent taste. From
+              local favorites to everyday comfort food, every plate is served
+              with the same commitment to quality and value.
             </p>
 
             <p className="text-gray-600 leading-relaxed mb-6">
-              Our team is made up of passionate chefs, local farmers, and
-              friendly staff who care deeply about quality, culture, and
-              community. Whether it&apos;s your first visit or your fiftieth, we
-              welcome you with the same warmth and flavors that started it all.
+              The cafe continues to grow its community both offline and online,
+              especially through TikTok, where customers share the experience of
+              enjoying meals that truly satisfy. Whether you&apos;re stopping by
+              for a quick bite or a full meal, Kitchen&apos;s Delight Cafe
+              remains a place where good food and big portions always come
+              first.
             </p>
           </div>
         </div>

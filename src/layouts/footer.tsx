@@ -13,7 +13,7 @@ export function Footer() {
             <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-border group-hover:ring-primary transition-all">
               <Image
                 fill
-                src={site.logo}
+                src="/logo.png"
                 alt={`${site.restaurantName} Logo`}
                 className="object-cover"
               />

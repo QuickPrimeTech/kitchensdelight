@@ -10,7 +10,7 @@ export default function ContactHeader() {
       role="region"
     >
       <Image
-        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1753124395/ccedbed8-827e-46b2-bec0-091ec79f7dc4_vqxshc.jpg"
+        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_52_owQwQJBFRuQmAdDpaFkafLaEY0rEwE0gUwFxBe_tplv-tiktokx-origin_oyc4js.jpg"
         alt="Contact background"
         fill
         className="object-cover"

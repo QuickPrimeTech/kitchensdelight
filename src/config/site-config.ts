@@ -5,15 +5,15 @@ import { FaXTwitter } from "react-icons/fa6";
 const contact = {
   phone: "+254717448835",
   whatsapp: "+254717448835",
-  email: "orders@ziwa.co.ke",
-  address: "Makadara Road, Old Town, Mombasa 80100, Kenya",
+  email: "orders@kitchensdelight.co.ke",
+  address: "Nyeri Town, Nyeri, Kenya",
 };
 
 export const site = {
   logo: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750685108/Flux_Dev_A_minimalistic_logo_for_a_coastal_restaurant_featurin_0_yyrx6o.jpg",
-  restaurantName: "Ziwa Restaurant",
+  restaurantName: "Kitchen’s Delight Cafe",
   restaurantDescription:
-    "Karibu Ziwa - whether you're craving a hearty meal, a quick bite, or a cozy spot to unwind, we’ve got something delicious waiting for you.",
+    "Karibu Kitchen’s Delight Cafe — whether you're craving a hearty meal, a quick bite, or a cozy spot to relax, we’ve got generous, delicious portions waiting just for you.",
   contact,
   links: {
     whatsappUrl: `https://wa.me/${contact.whatsapp.replace("+", "")}`,

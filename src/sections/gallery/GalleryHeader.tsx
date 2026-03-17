@@ -4,7 +4,7 @@ export default function GalleryHeader() {
   return (
     <section className="relative pt-24 pb-12 bg-header-foreground/10 text-background">
       <Image
-        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1753130180/imgi_108_nomad-beach-bar-view_rtynpo.jpg"
+        src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762830/imgi_25_o45EIHwaAqYjAIvaT6ISWPL2IeD14ieFCfC6GE_tplv-tiktokx-origin_afmrzu.jpg"
         alt="Gallery background"
         fill
         priority
@@ -20,12 +20,13 @@ export default function GalleryHeader() {
               Gallery
             </div>
             <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">
-              Visual Stories
+              Moments at Kitchen&#39;s Delight Cafe
             </h1>
             <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-              Explore the beauty of coastal dining through our curated
-              collection of moments, from exquisite dishes to breathtaking ocean
-              views and memorable celebrations.
+              Explore the experience at Kitchen&#39;s Delight Cafe through our
+              collection of hearty meals, generous portions, and happy moments
+              shared by our community in Nyeri and beyond, including highlights
+              from our TikTok journey.
             </p>
           </div>
         </div>
