@@ -20,28 +20,28 @@ const instagramPosts = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762952/imgi_23_482861797_17874574620290372_1707356993823858096_n_wxz9xc.webp",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460384/kitchen1_ln3pey.jpg",
     caption: "signature food and generous portions",
     likes: 234,
   },
   {
     id: 2,
     image:
-      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762947/imgi_29_482729554_17874159654290372_5565691367087164429_n_i4jsvo.webp",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460382/kitchen3_gtpsik.jpg",
     caption: "Generous portions, unforgettable flavors! ",
     likes: 189,
   },
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762944/imgi_21_483314818_17875098924290372_2271472929425626432_n_qhj3to.webp",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460383/kitchen2_ewodp1.jpg",
     caption: "Our signature seafood platter",
     likes: 312,
   },
   {
     id: 4,
     image:
-      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762831/imgi_24_abbaddbc3db641ad8e0e14f425ee1d69_tplv-photomode-image_bls0pf.jpg",
+      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460382/kitchen6_nhfwzq.jpg",
     caption: "refreshing drinks",
     likes: 156,
   },
