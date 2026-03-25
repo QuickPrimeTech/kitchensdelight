@@ -33,7 +33,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl px-4 text-white text-center sm:text-left sm:mx-auto md:mx-0">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Kitchen&apos;s Delight Cafe &ndash; Big Meals, Big Satisfaction
+          Kitchen&apos;s Delight Cafe &ndash; Good Food, Good Mood
         </h1>
         <p className="text-lg md:text-2xl mb-8 font-light">
           Enjoy hearty, delicious meals at Kitchen&apos;s Delight Cafe &mdash;

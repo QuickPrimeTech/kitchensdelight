@@ -19,7 +19,7 @@ export function Footer() {
               />
             </div>
             <span className="font-serif text-2xl font-bold text-foreground">
-              {site.restaurantName}
+              Kitchen&#39;s Delight Cafe
             </span>
             <div>
               <Image
