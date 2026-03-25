@@ -1,4 +1,5 @@
 import HeroSection from "@/sections/home/hero-section";
+import React from "react";
 import MenuHighlights from "@/sections/home/menu-highlights";
 import AboutSection from "@/sections/home/about-section";
 import ReviewsSection from "@/sections/home/reviews";
@@ -20,7 +21,7 @@ export default async function HomePage() {
   const { data: offers } = await api.get<ApiResponse<Offer[]>>("/offers");
 
   const { data: menuItems } = await api.get<ApiResponse<MenuItem[]>>(
-    "/menu-items?popular=true&is_available=true"
+    "/menu-items?popular=true&is_available=true",
   );
 
   return (

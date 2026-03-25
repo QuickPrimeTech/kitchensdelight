@@ -3,8 +3,8 @@ import { Instagram, Facebook } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
 const contact = {
-  phone: "+254717448835",
-  whatsapp: "+254717448835",
+  phone: "0799030516",
+  whatsapp: "0799030516",
   email: "orders@kitchensdelight.co.ke",
   address: "Nyeri Town, Nyeri, Kenya",
 };

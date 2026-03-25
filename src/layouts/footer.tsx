@@ -15,12 +15,21 @@ export function Footer() {
                 fill
                 src="/logo.png"
                 alt={`${site.restaurantName} Logo`}
-                className="object-cover"
+                className="object-cover rounded-full"
               />
             </div>
             <span className="font-serif text-2xl font-bold text-foreground">
               {site.restaurantName}
             </span>
+            <div>
+              <Image
+                width={100}
+                height={100}
+                src="https://res.cloudinary.com/meshack-kipkemoi/image/upload/v1774467299/qr_2_mvpln3.png"
+                alt={`${site.restaurantName} Logo`}
+                className="object-fill"
+              />
+            </div>
           </Link>
           <p className="text-muted-foreground leading-relaxed mb-6">
             {site.restaurantDescription}

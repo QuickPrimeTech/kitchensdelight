@@ -1,57 +1,59 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { DynamicImage } from "@/components/dynamic-image";
 import { Calendar, ShoppingBag } from "lucide-react";
 
-const images = [
-  {
-    image_url:
-      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_52_owQwQJBFRuQmAdDpaFkafLaEY0rEwE0gUwFxBe_tplv-tiktokx-origin_oyc4js.jpg", // seafood dish,
-    lqip: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAYACoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EAC0QAAIBAwMDAQYHAAAAAAAAAAECAwAEERIhMQVBUSITMmGBscEUJDNCcZGh/8QAGAEBAQADAAAAAAAAAAAAAAAABAMBAgX/xAAdEQEAAgIDAQEAAAAAAAAAAAABAAIDERIhMUFx/9oADAMBAAIRAxEAPwCYtytmiyIfzDDSoGRjB535rNjbQMk93eMnsJfT7PBXW/bVge7xkgn7UkmmW8YyphY48RZOOMCq9jLNfqWtoC0QXQTcBdKkD09hntzseN6lnUr1KYjdvNyiBa9PtobaCMJaFzhpRqDZOchTudx/lL9VW3e30W1k00jJp1rlCN/2jkg58Vsxy2vTJjOpRoZNMcaEEEHfIOSPPB24FLK9zHerMZNCZJ1ggbDkZI+GM8UDXe32MyLx4lf3UkwyTywiGRGEq4JC8N2z/VD2ml2VIwFBwB+II2/inhHLHfyXEjRvLMgOwCjk/MbDGfjzShmsixMlykbn3kJc6T4rpUVqLA5ALIRaSVVtxBGf1fU7EYIHYff51a6Ldp0+3ke5jeVJNONGPRgn6k+aKKzepY0zUUeo811NeTRzxymOFXKRR4yx2PbydyBvjHfNT7m4FvMHcLcOCEKbAKBnYBRjJBHjfJooodal3T5L4ctuNrfZPub2dIyw9JnZtk3BHcg/A/WorW1y7FkhdlJyDnkUUU0kJ//Z",
-  },
-  {
-    image_url:
-      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_31_osQqcRBp2sxb4FPt8OSDwgJEUrBfAiKfzQJdEW_tplv-tiktokx-origin_nsjmoc.jpg", // waterfront view
-    lqip: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAcACUDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMCBAUB/8QAKBAAAgIBAwMEAgMBAAAAAAAAAQIDEQQAEiEFMUETIlFxYZEUQ6Hh/8QAGAEBAQADAAAAAAAAAAAAAAAAAgMAAQT/xAAdEQACAwACAwAAAAAAAAAAAAAAAQIRIQMSIzFR/9oADAMBAAIRAxEAPwCUkk3TsYzT1KjkMQSN17ex/A+OO351RhWOTMRpGkqV9yA2QR37/FX35rWsnTHGAElmUybz/XdD4sg6ckOLj9QimN7vUCKQDW30/j7GuVcE21eBc4mfBl5gy3TI3wCtjUoIUfQHNV8ef1HOy3yunbjKDucKWK1zYN34I7H61v5yQZkEW9mWP1QQdp5NHgcazOspEjY8K3EkUm9wt8MWHIPngn/NVfHOF7aDFp1hTkzsuMKsJyDEB7fRagKNVzz2A76NPHTpsnLyJFf0zYB9oYtx3P70al5fgqivbJSdQZ2McLsjxuDM25gUo0R358+b402POiOW80mTK0JYupZ6IAA9tE32vS8WJHc2D2PnUMrCgknVmU3dd/GqNtFlTLUebEUkyM7qAYFwQLLbRXIFH5886RkCGTBWMZAnmJJ3K7cqAT7u/wDzQvT8PaCuOq0dwAugdcgwMZJHUR3uCgm6J4/Gt21hnVPS70OLElim/kSTZMnqWdiytsHgcfWjVOOBIJJFjFDdo008A6s//9k=",
-  },
-  {
-    image_url:
-      "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_26_ocUiIrQQjo98Ur7wtAFFegvaQA6TReMs3pfDWC_tplv-tiktokx-origin_xi9sao.jpg", // fresh catch
-    lqip: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAA0JCgsKCA0LCgsODg0PEyAVExISEyccHhcgLikxMC4pLSwzOko+MzZGNywtQFdBRkxOUlNSMj5aYVpQYEpRUk//2wBDAQ4ODhMREyYVFSZPNS01T09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0//wAARCAAcACYDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAMEBQYBAv/EAC0QAAIBAgUCBAUFAAAAAAAAAAECAwQRAAUSITEiURNBYYEGFDKRoUJxseHw/8QAFwEBAQEBAAAAAAAAAAAAAAAAAwQBAv/EAB4RAAICAgIDAAAAAAAAAAAAAAECABEDEiEiEzFh/9oADAMBAAIRAxEAPwDbqpsxGZzEyTLSrbQAqhTsL3JF+cIzKWGvpYIZ4tJkUsJD9KncAEnyNvtiU/NxCSpWZpOvTpmNuNr+e23P4GKc4nFTT00arG4c6zbcbD0v3xGpB2uVeHWvs9ysQ0tRJqqYTI2q6x7Rne/uw/3OM34lSoM6szbIuwZejjcgfvj4zNzBRuNaFSpt1qAdJBuDe367d9vtVRVIky0V9W7SoQI/DJuot528jvvjB2SvQiuuj2DZjsllmehEcrPI0ZsXc3J9PbjBhtLKTTxARvEx1XshA2PG4H8f2YoU8SVxTRGZVT+KhTL4pgByTbq7kYmijkCTLWM0jygSKiIOhhwQOPbGhy2+M+tjWfN4IH1BJIzq0sRe19vxgsnQWImO2NGEmRLWsZpK0Sx6V1Ap2v8AkXIwo5siQxRpSqlGh6SrDUQPPTbnFeRyNUQCR7DxvELKosBtHwPc45+JwktRSeGrJT2CFib7sRvv6Y5Z2CAxMaK2Qhp19NUQzU0csLMQ41dXO/ftgxi0dRLHVfJ31IiMQzfUbNYemDDBrEApzxP/2Q==",
-  },
-];
-
 export default function HeroSection() {
+  // Replace this with your actual Cloudinary video public ID or full URL
+  // Added f_auto (auto format) and q_auto (auto quality) for optimization
+  const videoUrl =
+    "https://res.cloudinary.com/meshack-kipkemoi/video/upload/v1774461363/kitchenvideo_vrmzx3.mp4";
+
   return (
     <section
       className="relative h-screen flex items-center justify-center overflow-hidden"
-      aria-label="Welcome section of Kitchen&#39;s Delight Cafe, a popular spot in Nyeri known for generous portions"
+      aria-label="Welcome section of Kitchen's Delight Cafe"
     >
-      {/* Background Image Carousel */}
-      <DynamicImage images={images} />
+      {/* Background Video */}
+      <div className="absolute inset-0 w-full h-full">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src={videoUrl} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 w-full h-full bg-black/40"></div>
+      <div className="absolute inset-0 w-full h-full bg-black/50"></div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl sm:mx-auto md:mx-0 px-4 text-white text-center sm:text-left">
+      <div className="relative z-10 max-w-4xl px-4 text-white text-center sm:text-left sm:mx-auto md:mx-0">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Kitchen&#39;s Delight Cafe &ndash; Big Meals, Big Satisfaction
+          Kitchen&apos;s Delight Cafe &ndash; Big Meals, Big Satisfaction
         </h1>
         <p className="text-lg md:text-2xl mb-8 font-light">
-          Enjoy hearty, delicious meals at Kitchen&#39;s Delight Cafe &mdash;
+          Enjoy hearty, delicious meals at Kitchen&apos;s Delight Cafe &mdash;
           famous in Nyeri for generous portions, great taste, and a dining
           experience loved both in person and across TikTok.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
           <Button asChild size="lg">
-            <Link href="/menu">
-              <ShoppingBag /> Order Now
+            <Link href="/menu" className="flex items-center gap-2">
+              <ShoppingBag className="w-5 h-5" /> Order Now
             </Link>
           </Button>
-          <Button asChild variant="outline" size="lg">
-            <Link href="/reservations">
-              <Calendar /> Book a Table
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="bg-transparent hover:bg-white hover:text-black"
+          >
+            <Link href="/reservations" className="flex items-center gap-2">
+              <Calendar className="w-5 h-5" /> Book a Table
             </Link>
           </Button>
         </div>

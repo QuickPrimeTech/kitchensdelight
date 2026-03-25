@@ -37,7 +37,7 @@ export default function AboutSection() {
         <div className="relative w-full aspect-3/2">
           <Image
             fill
-            src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_26_ocUiIrQQjo98Ur7wtAFFegvaQA6TReMs3pfDWC_tplv-tiktokx-origin_xi9sao.jpg"
+            src="https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460384/kitchen1_ln3pey.jpg"
             alt="Chef preparing dishes at Kitchen's Delight Cafe"
             className="rounded-lg shadow-2xl object-cover"
             sizes="(max-width: 768px) 100vw, 50vw"

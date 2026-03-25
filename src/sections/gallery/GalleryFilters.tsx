@@ -17,25 +17,25 @@ const images = [
   {
     id: 1,
     category: "food",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750625413/chargrilled-tuna-beans-and-potatoes-with-summer-herb-dressing-20738-1_rj3tmi.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460384/kitchen1_ln3pey.jpg",
     title: "Grilled Pacific Salmon",
   },
   {
     id: 2,
     category: "interior",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750625320/9_4_11zon-2048x1365-1_1_g99sqg.webp",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460383/kitchen2_ewodp1.jpg",
     title: "Main Dining Room",
   },
   {
     id: 3,
     category: "views",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750625229/6_3_11zon-min-2048x1365-1_qlnnp9.webp",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460382/kitchen3_gtpsik.jpghttps://res.cloudinary.com/quick-prime-tech/image/upload/v1750625229/6_3_11zon-min-2048x1365-1_qlnnp9.webp",
     title: "Sunset Ocean View",
   },
   {
     id: 4,
     category: "events",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750625055/octopus-curry_ynoaz6.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460382/kitchen4_ahzm28.jpghttps://res.cloudinary.com/quick-prime-tech/image/upload/v1750625055/octopus-curry_ynoaz6.jpg",
     title: "Wedding Reception",
   },
   {
@@ -47,25 +47,25 @@ const images = [
   {
     id: 6,
     category: "interior",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1773762832/imgi_52_owQwQJBFRuQmAdDpaFkafLaEY0rEwE0gUwFxBe_tplv-tiktokx-origin_oyc4js.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460382/kitchen4_ahzm28.jpg",
     title: "Private Dining Room",
   },
   {
     id: 7,
     category: "views",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750266050/455289058_1500707817206510_6889315058520713282_n_i0pzf6.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460382/kitchen4_ahzm28.jpg",
     title: "Beachside Terrace",
   },
   {
     id: 8,
     category: "events",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1750251810/P1010148_rvgfg2.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460382/kitchen6_nhfwzq.jpg",
     title: "Corporate Event",
   },
   {
     id: 9,
     category: "food",
-    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1749847942/crumble-2024x1518_yxs0ca.jpg",
+    src: "https://res.cloudinary.com/quick-prime-tech/image/upload/v1774460383/kitchen7_xvqpwm.jpg",
     title: "Seafood Paella",
   },
 ];
@@ -118,7 +118,7 @@ export default function GalleryPage() {
               <DialogTrigger asChild>
                 <div
                   onClick={() => setLightboxIndex(i)}
-                  className="relative group aspect-[4/3] overflow-hidden rounded-lg cursor-pointer"
+                  className="relative group aspect-4/3 overflow-hidden rounded-lg cursor-pointer"
                 >
                   <Image
                     src={img.src || "/placeholder.svg"}

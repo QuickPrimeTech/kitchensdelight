@@ -131,7 +131,7 @@ export default function InstagramSection() {
       <div className="text-center mt-12">
         <Button asChild className="w-auto">
           <Link
-            href="https://www.instagram.com/quickprimetech/"
+            href="https://www.instagram.com/kitchendelightsnyeri/"
             target="_blank"
             rel="noopener noreferrer"
           >
