@@ -1,6 +1,6 @@
 // @/config/site-config.ts
 import { Instagram, Facebook } from "lucide-react";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa6";
 
 const contact = {
   phone: "0799030516",
@@ -28,15 +28,15 @@ export const site = {
   socials: [
     {
       icon: Instagram,
-      href: "https://www.instagram.com/quickprimetech/",
+      href: "https://www.instagram.com/kitchendelightsnyeri/",
     },
     {
       icon: Facebook,
-      href: "https://www.facebook.com/quickprimetech/",
+      href: "https://web.facebook.com/myKitchenDelight/?_rdc=1&_rdr#",
     },
     {
-      icon: FaXTwitter,
-      href: "https://twitter.com/quickprimetech/",
+      icon: FaTiktok,
+      href: "https://www.tiktok.com/discover/kitchen-delights-nyeri",
     },
   ],
   address: "Sir Mbarak Hinawy Road, Mombasa 80100, Kenya",
